@@ -1,3 +1,13 @@
+hr{
+    margin: 1.5rem 0rem;
+}
+
+:root{
+    --primary-color:#7fdbff;
+    --grey-color:#94a3b8;
+    --off-white:
+    #e2e8f0;
+}
 /* @typography */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
@@ -15,4 +25,116 @@ body{
     margin: auto;
 }
 
+/* @links */
+.link{
+    background-color: #7fdbff;
+    color: white;
+    border-radius: 0.5rem;
+    border: solid;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+}
+.link--secondary{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+}
 
+
+/* @lists */
+.non-bullets{
+    list-style-type: none;
+}
+
+.inline-item{
+    display: inline;
+    padding: 0rem 0.5rem;
+    
+}
+
+/* @navigationBar */
+.brand{
+    color:white;
+    font-size: large;
+}
+.navigation{
+    background-color: #7fdbff;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.nav-link{
+    display: inline;
+    list-style: none;
+}
+ .nav-list{
+    color: white;
+    text-align: right;
+    margin: 0.6rem 1rem;
+}
+.main-link{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+.link-active{
+    font-weight: bold;
+}
+
+/* @header */
+
+.hero{
+    padding: 2rem;
+}
+.hero .hero-image{
+    margin: auto;
+    width: 500px;
+    display: block;
+}
+.hero .hero-heading{
+    color: var(--grey-color);
+    text-align: center;
+    padding: 1rem;
+}
+.hero .hero-heading .heading{
+    color: var(--primary-color);
+}
+
+/* @sections */
+.section{
+    padding: 2rem;
+    text-align: center;
+}
+.section h1{
+    text-align: center;
+}
+.ow-section{
+    background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    border-bottom-right-radius: 1rem;
+}
+.footer .footer-head{
+    font-size: x-large;
+}
+.footer .footer-link{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.footer-list{
+    display: inline;  
+}
+.footer ul{
+    padding-inline-start: 0px;
+
+}

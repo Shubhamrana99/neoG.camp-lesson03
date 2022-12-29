@@ -1,123 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Home | Shubham </title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Shubham's component library</h1>
+    <!-- @navigation -->
+    <nav class="navigation">
+        <div class="brand">SHUBHAM RANA</div>
+        <ul class="nav-list">
+            <li class="nav-link">
+                <a class="main-link link-active" href="/">Home</a>
+            </li>
+            <li class="nav-link">
+                <a class="main-link" href="/projects.html">Project</a>
+            </li>
+            <li class="nav-link">
+                <a class="main-link" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
 
-    <p>I am here to learn HTML and CSS part for building up the project of neoG.camp level zero</p>
-    <hr>
-
-    <h2>@typography</h2>
-    <h1>This is a biggest heading in HTML</h1>
-    <p>
-        This is a Normal text in paragraph
-    </p>
-    <h6>This is a smallest Heading in HTML</h6>
-    <small>
-        This is a smallest text in paragraph
-    </small>
-
-    <hr>
-
-
-    <h2>@containers</h2>
-    <h3>1.Fluid container</h3>
-    <div>this is a fluid container and it will go till the end of the webpage</div>
-
-    <h3>2.Center container</h3>
-    <div>this is a center container and it will go till the specific width of the webpage</div>
-
-    <hr>
-
-
-    <h2>@links</h2>
-    <a href="/">Primary Link</a>
-    <a href="https://www.google.com/">google</a>
-    <br>
-    <a href="/">Secondary Link</a>
-
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>unordered lists</h3>
-    <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-    </ul>
-
-    <h3>unordered inline lists</h3>
-    <ul>
-        <li>Inline item one</li>
-        <li>Inline item two</li>
-        <li>Inline item three</li>
-    </ul>
-
-    <h3>reverse ordered lists</h3>
-    <ol>
-        <li>eggs</li>
-        <li>milk</li>
-        <li>bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@navigation</h2>
-
-    <div>I am shubham</div>
-    <ul>
-        <li>
-            <a href="/">Home</a>
-        </li>
-        <li>
-            <a href="/">Project</a>
-        </li>
-        <li>
-            <a href="/">About</a>
-        </li>
-    </ul>
-
-    <hr>
-
-    <h2>@header</h2>
-    <header>
-        <img src="images/headerImage.svg" alt="">
-        <h1>Heading inside header</h1>
+    <!-- @header -->
+    <header class="hero">
+        <img class="hero-image" src="images/headerImage.svg" alt="">
+        <h1 class="hero-heading">Shubham Rana the <span class="heading">web developer</span></h1>
     </header>
 
-    <hr>
 
-    <h2>@sections</h2>
-    <section>
-        <h3>White section</h3>
-        <p>this will have white background</p>
-    </section>
-    <section>
-        <h3>Non white section</h3>
-        <p>this will have grey background</p>
+    <!-- @sections -->
+    <!-- 1.off-white section -->
+    <section class="section ow-section">
+        <div class="center-container">
+            <h1>technologies</h1>
+            <p>I am familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting</p>
+        </div>
     </section>
 
-    <hr>
+    <!-- 2.white section -->
+    <section class="section">
+        <div class="center-container">
+            <h1>projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+            <a class="link" href="/">See Projects</a>
+        </div>
+    </section>
 
-    <h2>@footer</h2>
-    <footer>
-        <div>some small heading inside header</div>
+    <!-- 3.non-white section -->
+    <section class="section ow-section">
+        <div class="center-container">
+            <h1>blogs</h1>
+            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
+            <a class="link--secondary" href="/">Read blogs</a>
+        </div>
+    </section>
+
+
+    <!-- 4.@footer -->
+    <footer class="footer">
+        <div class="footer-head"><strong>social media presence</strong></div>
         <ul>
-            <li>socialLinkone</li>
-            <li>socialLinktwo</li>
-            <li>socialLinkthree</li>
+            <footer-list">
+                <a class="footer-link" href="https://github.com/Shubhamrana99">github</a>
+                </li>
+                <li class="footer-list">
+                    <a class="footer-link" href="https://app.netlify.com/teams/shubhamrana99/overview">netlify</a></li>
+                <li class="footer-list">
+                    <a class="footer-link" href="shubhamrana19599@gmail.com">gmail</a>
+                </li>
         </ul>
     </footer>
 
 </body>
-
 </html>
